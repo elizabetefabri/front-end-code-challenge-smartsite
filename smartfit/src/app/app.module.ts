@@ -8,12 +8,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsComponent } from './Layout/Components/forms/forms.component';
 import { HeaderComponent } from './Layout/Components/header/header.component';
+import { CardsListComponent } from './Layout/Components/cards-list/cards-list.component';
+import { CardsComponent } from './Layout/Components/cards/cards.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FormsComponent
+    FormsComponent,
+    CardsListComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,

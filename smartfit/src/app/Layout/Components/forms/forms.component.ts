@@ -40,7 +40,6 @@ export class FormsComponent implements OnInit {
       hour
     );
     this.unitService.setFilteredUnits(this.filterResults);
-
     this.submitEvent.emit();
   }
 
