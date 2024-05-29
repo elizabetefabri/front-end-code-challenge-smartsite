@@ -10,6 +10,8 @@ import { FormsComponent } from './Layout/Components/forms/forms.component';
 import { HeaderComponent } from './Layout/Components/header/header.component';
 import { CardsListComponent } from './Layout/Components/cards-list/cards-list.component';
 import { CardsComponent } from './Layout/Components/cards/cards.component';
+import { LegendComponent } from './Layout/Components/legend/legend.component';
+import { FooterComponent } from './Layout/Components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { CardsComponent } from './Layout/Components/cards/cards.component';
     HeaderComponent,
     FormsComponent,
     CardsListComponent,
-    CardsComponent
+    CardsComponent,
+    LegendComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
